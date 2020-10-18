@@ -54,7 +54,7 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v ./cmd/util
+      run: ./bin/build.sh
 
     - name: Setup - gcloud / gsutil
       uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
@@ -64,4 +64,4 @@ jobs:
         export_default_credentials: true
         
     - name: Deploy
-      run: gsutil cp ./util gs://lirio-tools-release/util
+      run: ./bin/deploy.sh
