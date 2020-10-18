@@ -1,0 +1,8 @@
+root:
+  commands:
+    - util:
+      description: "personal utilities" 
+      commands:
+        - watch:
+          description: "watch files"
+      
