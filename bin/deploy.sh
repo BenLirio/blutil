@@ -1,5 +1,5 @@
 # Manually build utils
-go build -v ./cmd/util
-gsutil rm gs://lirio-tools-release/util
-gsutil cp ./util gs://lirio-tools-release/util
-rm ./util
+go build -v ./blutil
+gsutil rm gs://lirio-tools-release/blutil
+gsutil cp ./blutil gs://lirio-tools-release/blutil
+rm ./blutil
