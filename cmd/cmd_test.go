@@ -8,7 +8,7 @@ func TestCorrectTemplate(t *testing.T) {
 package main
 
 import (
-	"github.com/BenLirio/lirio-tools/pkg/sample/cmd"
+	"github.com/BenLirio/lirio-tools/pkg/cli/sample/cmd"
 	"github.com/spf13/cobra"
 )
 

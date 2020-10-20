@@ -8,7 +8,7 @@ var templateString string = `
 package main
 
 import (
-	"github.com/BenLirio/lirio-tools/pkg/{{.Use}}/cmd"
+	"github.com/BenLirio/lirio-tools/pkg/cli/{{.Use}}/cmd"
 	"github.com/spf13/cobra"
 )
 
